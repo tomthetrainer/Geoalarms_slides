@@ -28,5 +28,7 @@
 * longitude
 
 ## convert to/from Android location objects:
-* `android.location.Location`
-* `com.google.android.maps.GeoPoint`
+
+* public Coordinates(Location location);
+* public Coordinates(GeoPoint point);
+* public GeoPoint toGeoPoint();
