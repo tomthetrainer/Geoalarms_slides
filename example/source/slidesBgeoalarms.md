@@ -1,6 +1,6 @@
 !SLIDE geoalarms
 
-# GeoAlarms #
+# `GeoAlarms` #
 
     @@@
     ~/repos/GeoAlarms/src/main/java
@@ -8,9 +8,9 @@
         └── geoalarms
             └── GeoAlarms.java
 
-!SLIDE GeoAlarms
+!SLIDE explanation
 
-# GeoAlarms.java #
+# `GeoAlarms` #
 
 * holds application global state in static members  
   * context  
@@ -18,9 +18,9 @@
   * location  
 * accessible from every class inside the application
 
-<!SLIDE GeoAlarms smaller>
+<!SLIDE smaller>
 
-# GeoAlarms #
+# `GeoAlarms` #
 
     @@@ java
     public class GeoAlarms extends Application {

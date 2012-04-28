@@ -1,6 +1,6 @@
 !SLIDE source
 
-# model #
+# `model` #
 
     @@@
     ~/repos/GeoAlarms/src/main/java
@@ -11,18 +11,22 @@
                 └── Coordinates.java
 
 !SLIDE
-# Alarm #
-* int         : radius
-* Coordinates : coordinate
-* String      : name
-* String      : description
+# `Alarm` #
 
-!SLIDE small transition=scrollLeft
-# Coordinates #
-* int : longitude
-* int : latitude 
+## stores information about an alarm:
+* radius
+* coordinates
+* name
+* description
 
-# Remarcable methods #
-* public Coordinates(Location location);
-* public Coordinates(GeoPoint point);
-* public GeoPoint toGeoPoint();
+<!SLIDE small transition=scrollLeft>
+
+# `Coordinates` #
+
+## our representation of coordinates:
+* latitude 
+* longitude
+
+## convert to/from Android location objects:
+* `android.location.Location`
+* `com.google.android.maps.GeoPoint`
