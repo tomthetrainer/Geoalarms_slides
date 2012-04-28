@@ -1,6 +1,6 @@
 !SLIDE source
 
-# database #
+# `database` #
 
     @@@
     ~/repos/GeoAlarms/src/main/java
