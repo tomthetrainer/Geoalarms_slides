@@ -1,34 +1,16 @@
 <!SLIDE title-slide>
-.notes first slide
 
-# First Slide #
+# GeoAlarms #
+![logo](geoalarms.png)
 
-<!SLIDE bullets incremental transition=fade>
-.notes something something something something something something something something something something something something something something something dark side
+<!SLIDE bullets transition=fade>
 
-# Second Slide #
+# Introduction #
 
-* something
-* something else
-* a third thing
-* a fourth thing
-* a fifth thing
-
-<!SLIDE bullets>
-# Third Slide
-
-* Sometimes bullet items
-  * Have sublists
-  * And some sublist items
-    * Have some of their own
-    * And so on
-* But top-level "bullet items" have no bullets
-  * isn't that odd?
-
-Also, sometimes you just want to have plain text sitting in the middle
-of the screen. The quick brown fox jumps over the lazy dog.
+* store alarms associated with geographical locations 
+* notify the user when its close enough to an alarm
 
 !SLIDE center transition=scrollUp
 .notes another dark side
 
-![octocat](octocat.png)
+![screenshot](screenshot.png)
