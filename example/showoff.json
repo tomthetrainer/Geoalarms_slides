@@ -1,15 +1,14 @@
 {
-  "name": "Something",
-  "description": "Example Presentation",
-  "author": "Foo Bar John",
+  "name": "GeoAlarms",
+  "description": "Presentation about GeoAlarms Android app",
+  "author": "Alejandro Gómez and Óscar Ramírez",
   "templates" : {
       "special" : "simple.tpl"
   },
-  "pause_msg": "Paused !!!",
+  "pause_msg": "Paused",
   "sections": [
-    {"section":"one"},
-    {"section":"two"},
-    {"section":"three"},
-    {"section":"four"}
+    {"section":"intro"},
+    {"section":"source"},
+    {"section":"meta"},
   ]
 }
