@@ -12,8 +12,6 @@
 
 !SLIDE database
 
-# A simple model #
-
      @@@sql
      CREATE TABLE alarms (
          radius      INTEGER NOT NULL,
@@ -24,18 +22,20 @@
 
 !SLIDE database
 
-# AlarmDatabaseHelper #
+# `AlarmDatabaseHelper` #
 
-## Encapsulates low-level database access. ##
+## encapsulates low-level database access. ##
 
-* database creation
-* insertion
-* deletion
+* SQL queries
+    * database creation
+    * insertion
+    * deletion
+* versioning
 
 
 <!SLIDE GeoAlarms smaller>
 
-# AlarmDatabaseHelper.java #
+# `AlarmDatabaseHelper` #
     @@@java
     public class AlarmDatabaseHelper extends SQLiteOpenHelper {
 
@@ -58,9 +58,9 @@
 
 !SLIDE 
 
-# AlarmManager #
+# `AlarmManager` #
 
-## Our tiny ORM. ##
+## our tiny ORM. ##
 
 * Object-oriented interface to the database
 * CRUD operations

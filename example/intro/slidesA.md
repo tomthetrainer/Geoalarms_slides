@@ -1,7 +1,11 @@
 <!SLIDE title-slide>
 
+![logo](logo.png)
 # GeoAlarms #
-![logo](geoalarms.png)
+
+### Alejandro Gómez García ##
+### Óscar Ramírez Jiménez ##
+
 
 <!SLIDE bullets transition=fade>
 

@@ -1,6 +1,6 @@
 !SLIDE 
 
-# activity #
+# `activity` #
 
     @@@
     ~/repos/GeoAlarms/src/main/java

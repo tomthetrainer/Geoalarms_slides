@@ -12,13 +12,11 @@
 
 <!SLIDE GeoAlarms smaller>
 
-# Custom overlay objects #
-
-## `AlarmOverlay` ##
+# `AlarmOverlay` #
 * plot an `Alarm` object in a map
 * name and radius
 
-## `PointOverlay` ##
+# `PointOverlay` #
 
 * draw a single point in the map 
 

@@ -1,6 +1,6 @@
 !SLIDE source
 
-# Show me the code #
+# Show me the `code` #
 
 !SLIDE
 
