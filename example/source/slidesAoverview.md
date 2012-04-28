@@ -1,8 +1,8 @@
-!SLIDE source
+!SLIDE source transition=fade 
 
 # Show me the `code` #
 
-!SLIDE
+!SLIDE transition=scrollLeft
 
 # Packages #
 

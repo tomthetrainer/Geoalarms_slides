@@ -14,7 +14,7 @@
 * store alarms associated with geographical locations 
 * notify the user when its close enough to an alarm
 
-!SLIDE center transition=scrollUp
+!SLIDE center transition=scrollDown
 .notes another dark side
 
 ![screenshot](screenshot.png)

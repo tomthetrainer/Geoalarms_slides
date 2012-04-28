@@ -1,4 +1,4 @@
-!SLIDE source
+!SLIDE small source transition=fade
 
 # `database` #
 
@@ -10,7 +10,7 @@
                 ├── AlarmDatabaseHelper.java
                 └── AlarmManager.java
 
-!SLIDE database
+!SLIDE database transition=scrollLeft
 
      @@@sql
      CREATE TABLE alarms (
@@ -20,7 +20,7 @@
          name        TEXT UNIQUE,
          description TEXT);
 
-!SLIDE database
+!SLIDE database transition=scrollLeft
 
 # `AlarmDatabaseHelper` #
 
@@ -33,11 +33,12 @@
 * versioning
 
 
-<!SLIDE GeoAlarms smaller>
+<!SLIDE GeoAlarms smaller transition=scrollLeft>
 
 # `AlarmDatabaseHelper` #
     @@@java
-    public class AlarmDatabaseHelper extends SQLiteOpenHelper {
+    public class AlarmDatabaseHelper 
+            extends SQLiteOpenHelper {
 
         // ...
 
@@ -56,7 +57,7 @@
         }
     }
 
-!SLIDE 
+!SLIDE transition=scrollLeft 
 
 # `AlarmManager` #
 
@@ -66,7 +67,7 @@
 * CRUD operations
 
 
-<!SLIDE GeoAlarms smaller>
+<!SLIDE GeoAlarms smaller transition=scrollLeft>
 
 # `add` #
     @@@java
@@ -90,7 +91,7 @@
         }
     }
 
-<!SLIDE GeoAlarms smaller>
+<!SLIDE GeoAlarms smaller transition=scrollLeft>
 
 # `read` #
     @@@java
@@ -117,7 +118,7 @@
             return null;
     }
 
-<!SLIDE GeoAlarms smaller>
+<!SLIDE GeoAlarms smaller transition=scrollLeft>
 
 # from `Cursor` to `Alarm` #
     @@@java

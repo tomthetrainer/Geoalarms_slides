@@ -1,4 +1,4 @@
-!SLIDE source
+!SLIDE source transition=fade
 
 # `map` #
 
@@ -10,7 +10,7 @@
                 ├── AlarmOverlay.java
                 └── PointOverlay.java
 
-<!SLIDE GeoAlarms smaller>
+<!SLIDE GeoAlarms smaller transition=scrollLeft>
 
 # `AlarmOverlay` #
 * plot an `Alarm` object in a map

@@ -1,4 +1,4 @@
-!SLIDE geoalarms
+!SLIDE geoalarms transition=fade
 
 # `GeoAlarms` #
 
@@ -8,7 +8,7 @@
         └── geoalarms
             └── GeoAlarms.java
 
-!SLIDE explanation
+!SLIDE explanation transition=scrollLeft
 
 # `GeoAlarms` #
 
@@ -18,7 +18,7 @@
   * location  
 * accessible from every class inside the application
 
-<!SLIDE smaller>
+<!SLIDE smaller transition=scrollLeft>
 
 # `GeoAlarms` #
 

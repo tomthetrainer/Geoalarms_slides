@@ -1,4 +1,4 @@
-!SLIDE small source
+!SLIDE small source transition=fade
 
 # `location` #
 
@@ -10,7 +10,7 @@
                 ├── LocListener.java
                 └── ProximityIntentReceiver.java
 
-!SLIDE smaller
+!SLIDE smaller transition=scrollLeft
 # LocListener  
     @@@ java
     public class LocListener implements LocationListener {
@@ -33,7 +33,7 @@
 
 .notes we use a fine location using both system of location, GPS and Network
 
-<!SLIDE smaller >
+<!SLIDE smaller transition=scrollLeft>
 # ProximityIntentReceiver 
     @@@ java
     public class ProximityIntentReceiver 
@@ -59,6 +59,6 @@
       //...
     } 
 
-!SLIDE
+!SLIDE center transition=scrollLeft
 # Notification #
 ![screenshot](../../images/Notification_Alejandro_device_2.png)

@@ -1,4 +1,4 @@
-!SLIDE source
+!SLIDE source transition=fade
 
 # `model` #
 
@@ -10,7 +10,7 @@
                 ├── Alarm.java
                 └── Coordinates.java
 
-!SLIDE
+!SLIDE transition=scrollLeft
 # `Alarm` #
 
 ## stores information about an alarm:

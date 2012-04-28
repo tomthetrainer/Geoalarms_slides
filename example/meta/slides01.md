@@ -1,8 +1,8 @@
-<!SLIDE title-slide>
+<!SLIDE title-slide transition=scrollUp>
 
 # Let's get `meta`! #
 
-!SLIDE team
+!SLIDE team transition=fade
 
 # Our needs #
 
@@ -12,7 +12,7 @@
 * discuss about the project 
 * meetings in pyjamas
 
-<!SLIDE smaller transition=fade>
+<!SLIDE smaller transition=scrollLeft>
 
 # `git` remembers your history #
 
@@ -33,7 +33,7 @@
     ...
     * 919135e Initial commit
 
-!SLIDE open source
+!SLIDE open source transition=scrollLeft
 
 # Enter `GitHub`! #
 
@@ -44,7 +44,7 @@
 
 ![octocat](octocat.png)
 
-<!SLIDE center>
+<!SLIDE center transition=scrollLeft>
 
 ## `github.com/alejandrogomez/GeoAlarms` 
 
